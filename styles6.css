@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+.logo{
+  padding: 20px;
+}
+.about{
+  color: #000000 !important;
+}
+.main-head, .nav-item{
+  color: #34495E !important ;
+}
+ #navbar {
+
+    background-image: url('https://www.trpws.com/wp-content/uploads/2020/07/WhatsApp-Image-2020-07-15-at-08.27.34.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+  }
+  svg {
+    display: block;
+    font: 5.5em 'Montserrat';
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #34495E;
+    border-radius: 10px;
+    border-radius: 20px;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #F25843;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #74D1DF;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #EDF747;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #ED47F7;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #47F7C1;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+  .container-fluid{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to right, #F25843, #74D1DF, #EDF747, #ED47F7, #47F7C1 );
+      opacity: 0.8;
+  }
+.content{
+  padding: 0% 10% 5% 10%;
+}
+.col-lg-6{
+  padding: 2%;
+}
+.hr-main {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0));
+}
+iframe {
+    filter: brightness( 81% ) contrast( 153% ) saturate( 200% ) blur( 0px ) hue-rotate( 360deg );
+    height: 300px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    border: none;
+    border-radius: 10px;
+}
+.maps{
+  padding: 3% 10%;
+}
+.btn{
+  background: #85C1E9;
+  border-color: white ;
+margin: 1% 0% 1% 0;
+  border-radius: 20px;
+}
+.get{
+  color:#85C1E9;
+}
+.fa-icons{
+  font-size: 20px !important;
+  /* padding: 0 1% !important; */
+}
+
+
+
+
+
+
+
+
+  footer{
+    background-color:  #85C1E9;
+    color: white;
+    padding: 5%;
+  }
+
+  .footer-social-icons{
+    text-align: center;
+    font-size: 20px;
+  }
+  .fa-facebook {
+        background: #3B5998;
+  }
+  .fa-twitter{
+    background:  #337ab7;
+  }
+  .fa-instagram{
+    background: #fb3958;
+  }
+  .fa-youtube{
+      background: #e64a41;
+  }
+  .fa-linkedin{
+      background: #0073a4;
+  }
+  .fa-google-plus{
+    background:#e64a41;
+  }
+  .fab {
+        padding: .5%;
+        text-align: center;
+        margin: 5px 2px;
+        border-radius: 100%;
+      color:white;}
+      @media (max-width:1300px) {
+              .logo{
+                text-align: center;
+              }
+
+
+            .main-head{
+              font-size: 1.15rem;
+              font-weight: 500px;
+              }
+              .title{
+                font-size: 30px;
+font-weight: 500px;
+                margin: 0;
+                padding-bottom: 2%;
+              }
+              .container-fluid{
+                padding-bottom: 20%;
+              }
+              h2{
+                font-size: 25px;
+              }
+              svg {
+
+                font: 5.0em 'Montserrat';
+                width: 300px;
+                height: 100px;
+                margin: 0;
+            }
+            }
